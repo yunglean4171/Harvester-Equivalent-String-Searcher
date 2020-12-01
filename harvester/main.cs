@@ -17,9 +17,6 @@ namespace harvester
         public bool chosen = false;
         public string paczka;
         public string nword = "TriggerServerEvent";
-        public static string filetoload = String.Empty;
-        private delegate void FoundInfoSyncHandler(FoundInfoEventArgs e);
-        private FoundInfoSyncHandler FoundInfo;
 
         public void Log(string text)
         {
